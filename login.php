@@ -40,5 +40,6 @@ if ($result->num_rows > 0)  {
         <form action="login.php" method="post">
             <h2>Logowanie</h2>
             <?php if (isset($error)) echo "<p class='error'>$error</p>"; ?>
+            <label for="username">Nazwa użytkownika:</label>
 </body>
 </html>
