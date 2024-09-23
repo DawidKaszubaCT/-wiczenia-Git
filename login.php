@@ -36,6 +36,9 @@ if ($result->num_rows > 0)  {
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="login-containers">
+        <form action="login.php" method="post">
+            <h2>Logowanie</h2>
+            <?php if (isset($error)) echo "<p class='error'>$error</p>"; ?>
 </body>
 </html>
